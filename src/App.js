@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./styles.css";
 
-let inputWeight = 10;
-let inputHeight = 50;
+let inputWeight = 40;
+let inputHeight = 140;
 
 export default function App() {
   const [output, setOutput] = useState("output");
@@ -45,7 +45,6 @@ export default function App() {
           className="input-slider"
           onChange={readInputHeight}
           type="range"
-          step="1"
           min="140"
           max="220"
         />
